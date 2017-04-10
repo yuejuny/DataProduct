@@ -15,7 +15,9 @@ shinyUI(fluidPage(
                    sliderInput("HeightBand",
                                label="Range of Height:",
                                min=60,max=76,value=c(65,70))),
-      mainPanel(h2("Data Description"),
+      mainPanel(h1("My codes on GitHub"),
+                p(a("GitHub link",href="https://github.com/yuejuny/DataProduct.git")),
+                h2("Data Description"),
                 p("Human height and weight are hereditable, but lifestyles, diet,
                   health and environmental factors also play a role in determining
                   individual's physical characteristics. This database contains
